@@ -9,7 +9,7 @@ const Card = ({name, email, id, phone}) => {
       <img src={`https://robohash.org/${id}?200x200" `} alt=""/>
         <div>
           <h2>{name} </h2>
-          <p ><a href="mailto:{email}">{email}</a></p>
+          <p >{email}</p>
           <p>{phone}</p>
         </div>
     </div>

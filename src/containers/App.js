@@ -1,4 +1,5 @@
 import React, {Component } from 'react';
+import Header from '../components/Header';
 import CardList from '../components/CardList';
 import Scroll from '../components/Scroll';
 import Searchbox from '../components/Searchbox';
@@ -33,13 +34,14 @@ class App extends Component {
     const {searchField, onSearch, robots, isPending } = this.props;
     const filterRobots = robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
+
     })
 
     return isPending ?
       <h1>Loading</h1> :
     (
       <div className = "tc" >
-      <h1 className = "header tc f1" > Robot Buddies < /h1>
+      <Header />
       <Searchbox searchChange = {onSearch}/>
       < Scroll >
       <ErrorBoundary>
