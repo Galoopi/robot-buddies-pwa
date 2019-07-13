@@ -1,12 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Robot Buddies",
+  "name": "Robot Buddies",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "512x512,192x192,150x150,64x64 32x32 24x24 16x16",
+      "sizes": "36x36 24x24 16x16",
       "type": "image/x-icon"
-    }
+    },
+    {
+      "src": "favicon-150x150.png",
+      "sizes": "150 x 150 ",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192 x 192 ",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512 x 512 ",
+      "type": "image/png"
+    },
   ],
   "start_url": ".",
   "display": "standalone",
