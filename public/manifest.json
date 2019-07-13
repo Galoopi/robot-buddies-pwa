@@ -21,7 +21,7 @@
       "src": "favicon-512x512.png",
       "sizes": "512 x 512 ",
       "type": "image/png"
-    },
+    }
   ],
   "start_url": ".",
   "display": "standalone",
